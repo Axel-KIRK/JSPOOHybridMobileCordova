@@ -1,0 +1,36 @@
+#menu{
+    position:absolute;
+    left:0;
+    top:0;
+    height:667px;
+    width:375px;
+    z-index:1;
+    overflow:hidden;
+    background-color:#ffffff;
+}
+
+#menu-default_background{
+    position:absolute;
+    left:0;
+    top:0;
+    height:667px;
+    width:375px;
+    background-image: url('../../asset/img/menu/menu_default/background.png');
+}
+
+#menu-default_link{
+    font-family: 'din_alternatebold';
+    font-size:15px;
+    width:40%;
+    position:absolute;
+    left:50%;
+}
+
+#menu-default_link div{
+    width:100%;
+    margin-bottom:15px;
+}
+
+#menu-default_link_disconnect{
+    color:#ff1d25;
+}
